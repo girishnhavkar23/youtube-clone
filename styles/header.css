@@ -1,0 +1,156 @@
+.search-bar {
+    font-size: 20px;
+    width: 200px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 35px;
+    width: 400px;
+    text-align: left;
+    padding-left: 10px;
+    border-color: rgb(192, 192, 192);
+    box-shadow: inset;
+    
+    
+    
+}
+
+.search-logo{
+    height: 30px;
+    margin-left: -1px;
+    border-color: rgb(192, 192, 192);
+    
+}
+
+.mic{
+    height: 25px;
+    margin-left: 2px;
+    
+}
+
+
+
+.mic-button{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic-button.tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+
+}
+
+.mic-button:hover.tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    
+}
+.upload{
+    height: 24px;
+
+    cursor: pointer;
+
+}
+
+.youtube-app{
+    height: 24px;
+    
+    cursor: pointer;
+
+}
+
+.notify{
+    height: 24px;
+    
+    cursor: pointer;
+
+}
+
+.channel-logo{
+    height: 24px;
+    
+    cursor: pointer;
+
+}
+
+
+
+
+
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    
+}
+
+.left-section{
+   
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.middle-section{
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 29px;
+    flex-shrink: 0;
+    
+}
+
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+    
+}
+
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+}

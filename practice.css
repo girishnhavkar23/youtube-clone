@@ -1,0 +1,64 @@
+.name
+{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+
+}
+
+.email {
+    display: block;
+    border-radius: 5px;
+}
+
+.para,
+.yes,
+.no {
+    display: inline-block;
+    
+}
+
+.image{
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.google {
+    display: block;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.services {
+    display: inline-block;
+}
+
+.prac-9 {
+    border-width: 1px;
+    
+    border-color: black;
+    display: inline-block;
+    
+}
+
+.mimi,
+.oliver {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.image-2 {
+    width: 300px;
+}
+
+.button-2 {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
